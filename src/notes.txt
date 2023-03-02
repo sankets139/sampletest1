@@ -4,3 +4,21 @@ Method --> Define the behaviour
 
 Any class which is not belongs to java.lang or same package then we have to import it explicitly.
 
+constructor -- > force to provide information at the time of initalization of class.
+this.name = name (this represents the current class)
+---------------------------------------------------------------------------------------------
+
+constructor & overloading constructor
+method & overloading method
+variables:
+---------
+Global variables --> Scoop of the variable is avaialbe through out the class
+
+1.) Instance variable(non static)
+2.) Class variable (static variable)
+
+static method or variable can called via class name
+static variable can be constant by making final key and variables name should be upper case e.g. final static NUM_EYES = 2;
+
+Local variables --> Scoop of the variable is limited to the method or constructor
+
