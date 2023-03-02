@@ -1,0 +1,7 @@
+Class --> Class is a blueprint. It is a collection of variables and methods.
+Variables --> Define the state
+Method --> Define the behaviour
+
+Any class which is not belongs to java.lang or same package then we have to import it explicitly.
+
+
