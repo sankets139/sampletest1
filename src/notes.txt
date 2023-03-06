@@ -12,7 +12,7 @@ constructor & overloading constructor
 method & overloading method
 variables:
 ---------
-Global variables --> Scoop of the variable is avaialbe through out the class
+Global variables --> Scoop of the variable is available throughout the class
 
 1.) Instance variable(non static)
 2.) Class variable (static variable)
@@ -21,4 +21,15 @@ static method or variable can called via class name
 static variable can be constant by making final key and variables name should be upper case e.g. final static NUM_EYES = 2;
 
 Local variables --> Scoop of the variable is limited to the method or constructor
+
+----------------------------------------------------------------------------------------------------------
+The this keyword :-
+this is a keyword in Java which is used as a reference to the object of the current class, with in an instance method or a constructor.
+Using this you can refer the members of a class such as constructors, variables and methods.
+
+Note − The keyword this is used only within instance methods or constructors
+
+This
+In general, the keyword this is used to − Differentiate the instance variables from local variables if they have same names,
+within a constructor or a method.
 
