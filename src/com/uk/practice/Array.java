@@ -12,6 +12,7 @@ public class Array {
         strArray[3] = "India";
         strArray[4] = "Test";
 
+
         //Create integer array
         Integer[] intArray = {1,2,3,4,5};
         System.out.println(intArray.length);

@@ -32,4 +32,34 @@ Note − The keyword this is used only within instance methods or constructors
 This
 In general, the keyword this is used to − Differentiate the instance variables from local variables if they have same names,
 within a constructor or a method.
+-------------------------------------------------------------------------------------------------------------------------------------
+Four Access Modifiers in Java
+-----------------------------
+private --> can only be used within the same class they are defined
+<default> --> can only be use in the same package
+protected --> within the package + outside the package for subclasses (parent child relationship)
+public --> can be use anywhere in the module
+
+
+You can apply this to class/constructor/method/variable
+
+Encapsulation --> Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods)
+                  together as a single unit. In encapsulation, the variables of a class will be hidden from other classes,
+                  and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.
+
+                  To achieve encapsulation in Java −
+                  ------------------------------------
+                  Declare the variables of a class as private.
+                  Provide public setter and getter methods to modify and view the variables values.
+--------------------------------------------------------------------------------------------------------------------------------------
+Class Object --> is the root of the class hierarchy. Every Class has Object as a superclass.
+                 All objects, including arrays, implement the methods of this class.
+
+               e.g. java.lang.Object <--- Phone <--- MobilePhone
+
+@override annotation is validating the implemented method has the same name and parameters.
+--> When overriding the child class can increase the level of access and also use he same level of access, but cannot decrease, that means
+protected method in parent call & protected or public method in child class.
+Note:- Multiple inheritance is not allowed in Java. Class can have only one direct parent.
+-------------------------------------------------------------------------------------------------------------------------------------
 
